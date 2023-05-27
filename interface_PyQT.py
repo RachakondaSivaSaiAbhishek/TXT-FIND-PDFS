@@ -11,7 +11,7 @@ from PyPDF2 import PdfReader
 class PdfSearchViewer(QMainWindow):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("  METACOMIC - TXTFINDER ")
+        self.setWindowTitle(" TXTFINDER ")
         self.setGeometry(100, 100, 500, 500)
         self.setStyleSheet("""
             QMainWindow {
@@ -45,7 +45,7 @@ class PdfSearchViewer(QMainWindow):
             }
         """)
 
-        self.setWindowIcon(QIcon("C:/Users/Abhishek/Desktop/pdf/metacomic.png"))
+        self.setWindowIcon(QIcon("C:/Users/Abhishek/Desktop/pdf/image.png"))
 
         self.setup_ui()
 
